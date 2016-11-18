@@ -45,7 +45,7 @@
 			<property name="javax.persistence.jdbc.url"
 				value="jdbc:h2:tcp://localhost:5435/northwind;IFEXISTS=TRUE" />
 			<property name="javax.persistence.jdbc.user" value="sa" />
-			<property name="hibernate.show_sql" value="xxx" />
+			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.cache.region.factory_class"
 				value="org.hibernate.cache.jcache.JCacheRegionFactory" />
 			<property name="javax.persistence.jdbc.driver"
